@@ -1,0 +1,111 @@
+#  a=input()
+# print(a*2)
+#
+# b=int(input())
+# print(b+10)
+
+# c=int(input())
+# if c % 2 ==0:
+#     print('짝수')
+# else:
+#     print("홀수")
+
+# a=int(input())
+# if a+20>255:
+#     print("255")
+# else:
+#     print(a+20)
+
+# a=int(input())
+# if a-20>255:
+#     print(255)
+# elif a-20<0:
+#     print(0)
+# else:
+#     print(a-20)
+
+# a=input("현재시간")
+# if  a[3:]=="00":
+#     print("정각입니다.")
+# else:
+#     print('정각이 아닙니다.')
+
+# fruit=["사과","포도","홍시"]
+# a=input("좋아하는 과일은?")
+# if a in fruit:
+#     print("정답입니다.")
+# else:
+#     print("오답입니다.")
+
+# w=["microsoft","Google","Naver","Kakao","SAMSUNG","LG"]
+# a=input()
+# if a in w:
+#     print("투자경고 종목입니다.")
+# else:
+#     print("투자경고 종목이 아닙니다.")
+
+# fruit={"봄":"딸기","여름":"토마토","가을":"사과"}
+# a=input("제가 좋아하는 계절은:")
+# if a in fruit.values():
+#     print("정답입니다.")
+# else:
+#     print("오답입니다.")
+
+# a=input()
+# if a.islower():
+#     print(a.upper())
+# else:
+#     print(a.lower())
+
+# score=int(input("score:"))
+# if 80<= score <=100:
+#     print("A")
+# elif 61<=score<=80:
+#     print("B")
+# elif 41<=score<=60:
+#     print("C")
+# elif 21<=score<=40:
+#     print("D")
+# else:
+#     print("E")
+
+# ER={"달러":1167,"엔":1.096,"유로":1268,"위안":171}
+# a=input()
+# num, currecy=a.split()
+# print(float(num)*ER[currecy], "원")
+
+# n1 = int(input("input number1:"))
+# n1 = int(input("input number1:"))
+# n1 = int(input("input number1:"))
+#
+# if n1 > n2 and n1 > n3:
+#     print(n1)
+# elif n2 > n1 and n2 > n3:
+#     print(n2)
+# elif n3 > n1 and n3 > n2:
+#     print(n3)
+#
+#
+#
+#
+#
+# phone={011:"skt",016:"kt",019:"LGU",010:"알수없음"}
+# num = number.split("-") [0]
+# if num == "001":
+#     com = "skt"
+# elif num =="016":
+#     com == "kt"
+# elif num =="019":
+#     com = "LGU"
+# else:
+#     com ="알수없음"
+# print("당신은 %s 사용자 잆니다.")
+
+# num = input("우편번호:")
+# num= num [:3]
+# if num in ["010","011","012"]:
+#     print("강북구")
+# elif num in ["013","014","015"]:
+#     print("도봉구")
+# else:
+#     print("노원구")
